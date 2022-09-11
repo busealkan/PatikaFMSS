@@ -6,8 +6,11 @@
 
 # Fragment
 <p>Fragment, Activity üzerinde çalışan bir yapıdır. Bir sayfa üzerinde birden fazla ekran görüntülenecek ise Fragmentlar tercih edilmektedir.
+  
 <br/>
+  
 <h3>Fragment Lifecycle</h3>
+
 <img  height="400" width="250" src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev3/buse_alkan_odev3_lifecycle/screens/fragment-view-lifecycle.png"/>
 <li><b>onAttach():</b>İlk olarak onCreate () metotundan önce çağırılarak Fragment’in bir Activity’e eklendiğini bildirir.</li>
   
