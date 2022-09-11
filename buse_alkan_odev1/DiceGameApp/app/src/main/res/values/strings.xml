@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiceGameApp</string>
+    <string name="zarAt">ZAR AT</string>
+
+    <string name="alertCikisTitle">Çıkış Yap?</string>
+    <string name="alertCikisMessage">Uygulamadan Çıkış Yapılsın Mı?</string>
+    <string name="alertCikisNegativeButon">Çıkış</string>
+    <string name="alertCikisPozitifButon">İptal</string>
+
+</resources>
