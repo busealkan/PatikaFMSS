@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lifecycle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Name</string>
+    <string name="print">Print</string>
+    <string name="helloWorld">Hello World!</string>
+
+</resources>

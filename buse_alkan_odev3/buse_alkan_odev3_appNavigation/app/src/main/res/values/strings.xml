@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nullCheck"></string>
+    <string name="toastNullField">Please fill in the blank fields</string>
+    <string name="toastLoginFailed">Your username or password is incorrect</string>
+    <string name="toastLoginSuccessful">Welcome</string>
+    <string name="toastRegisteredUser">There is a registered user</string>
+    <string name="toastRegistrationSuccessful">Registration is successful</string>
+</resources>
