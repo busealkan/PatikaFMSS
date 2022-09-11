@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+        <View
+            android:id="@+id/ellipseBackLogin"
+            android:layout_width="@dimen/ellipseBackLogin"
+            android:layout_height="@dimen/ellipseBackLogin"
+            android:layout_marginLeft="@dimen/ellipseBackLoginMLeft"
+            android:layout_marginTop="@dimen/ellipseBackLoginMTop"
+            android:background="@drawable/ic_ellipse_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgBackLogin"
+            android:layout_width="@dimen/imgBackLoginWidth"
+            android:layout_height="@dimen/imgBackLoginHeight"
+            android:layout_marginEnd="@dimen/imgBackLoginMEnd"
+            android:background="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="@+id/ellipseBackLogin"
+            app:layout_constraintEnd_toEndOf="@+id/ellipseBackLogin"
+            app:layout_constraintStart_toStartOf="@+id/ellipseBackLogin"
+            app:layout_constraintTop_toTopOf="@+id/ellipseBackLogin" />
+
+        <TextView
+            android:id="@+id/txtWelcomeBack"
+            android:layout_width="241dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="149dp"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center_vertical"
+            android:lineHeight="39sp"
+            android:text="@string/welcomeBack"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txtEnterYour"
+            android:layout_width="338dp"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="139dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="@font/inter_extralight"
+            android:gravity="center_vertical"
+            android:lineHeight="22sp"
+            android:text="Enter Your Username \u0026 Password"
+            android:textColor="#565656"
+            android:textFontWeight="600"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ellipseGreen1"
+            android:layout_width="@dimen/ellipse"
+            android:layout_height="@dimen/ellipse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="269dp"
+            android:background="@drawable/ic_ellipse_green"
+            android:translationX="-215dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ellipseGreen2"
+            android:layout_width="@dimen/ellipse"
+            android:layout_height="@dimen/ellipse"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="522dp"
+            android:background="@drawable/ic_ellipse_green"
+            android:translationX="-32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutUserName"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="345dp"
+            android:layout_marginEnd="52dp"
+            android:hint="@string/username"
+            app:endIconMode="clear_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtUsername"
+                    android:layout_width="333dp"
+                    android:layout_height="51dp"
+                    android:background="@null"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center_vertical"
+                    android:hint="@string/username"
+                    android:inputType="textPersonName"
+                    android:lineHeight="32sp"
+                    android:textColor="#6B6B6B"
+                    android:textColorHint="#6B6B6B"
+                    android:textFontWeight="400"
+                    android:textSize="26sp"
+                    app:layout_constraintBottom_toTopOf="@+id/lineUsername"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <View
+            android:id="@+id/lineUsername"
+            android:layout_width="349dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ic_line_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutUserName" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutPassword"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="485dp"
+            android:layout_marginEnd="52dp"
+            android:hint="@string/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="333dp"
+                    android:layout_height="51dp"
+                    android:background="@null"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center_vertical"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:lineHeight="32sp"
+                    android:textColor="#6B6B6B"
+                    android:textColorHint="#6B6B6B"
+                    android:textFontWeight="400"
+                    android:textSize="26sp"
+                    app:layout_constraintBottom_toTopOf="@+id/lineUsername"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <View
+            android:id="@+id/linePassword"
+            android:layout_width="349dp"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="41dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/ic_line_black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutPassword" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="229dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="672dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/inder"
+            android:text="@string/login"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lineHeight="45sp" />
+
+        <TextView
+            android:id="@+id/txtForgottenPass"
+            android:layout_width="160dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="744dp"
+            android:fontFamily="@font/inter_extralight"
+            android:gravity="center_vertical"
+            android:lineHeight="18dp"
+            android:text="Forgotten Passwoard?"
+            android:textColor="#6B6B6B"
+            android:textFontWeight="400"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCreateAccount"
+            android:layout_width="183dp"
+            android:layout_height="31dp"
+            android:layout_marginTop="768dp"
+            android:fontFamily="@font/inter_extralight"
+            android:gravity="center_vertical"
+            android:lineHeight="18dp"
+            android:text="@string/createAccount"
+            android:clickable="true"
+            android:textColor="#6B6B6B"
+            android:textFontWeight="400"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

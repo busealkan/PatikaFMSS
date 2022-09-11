@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ellipse">460dp</dimen>
+
+    <dimen name="ellipseBlue1MTop">-130dp</dimen>
+    <dimen name="ellipseBlue1MLeft">31dp</dimen>
+
+    <dimen name="ellipseBlue2MTop">123dp</dimen>
+    <dimen name="ellipseBlue2MLeft">214dp</dimen>
+
+    <dimen name="unsplashSz">103dp</dimen>
+    <dimen name="unsplashSzMTop">140dp</dimen>
+    <dimen name="unsplashSzMLeft">249dp</dimen>
+
+    <dimen name="unsplashMe">165dp</dimen>
+    <dimen name="unsplashMeMTop">259dp</dimen>
+    <dimen name="unsplashMeMLeft">175dp</dimen>
+
+    <dimen name="txtLetsGetWidth">342dp</dimen>
+    <dimen name="txtLetsGetHeight">160dp</dimen>
+    <dimen name="txtLetsGetMTop">556dp</dimen>
+    <dimen name="txtLetsGetMLeft">33dp</dimen>
+    <dimen name="txtLetsGetLineSpacingExtra">-16sp</dimen>
+    <dimen name="txtLetsGetTextSize">75sp</dimen>
+    <dimen name="txtLetsGetLineHeight">75sp</dimen>
+
+
+    <dimen name="txtGrowTogethWidth">143dp</dimen>
+    <dimen name="txtGrowTogethHeight">27dp</dimen>
+    <dimen name="txtGrowTogethMTop">722dp</dimen>
+    <dimen name="txtGrowTogethMLeft">40dp</dimen>
+    <dimen name="txtGrowTogethLineSpacingExtra">-16sp</dimen>
+    <dimen name="txtGrowTogethTextSize">20sp</dimen>
+    <dimen name="txtGrowTogethLineHeight">24.2sp</dimen>
+
+    <dimen name="btnJoinNowWidth">281dp</dimen>
+    <dimen name="btnJoinNowHeight">62dp</dimen>
+    <dimen name="btnJoinNowMTop">792dp</dimen>
+    <dimen name="btnJoinNowMLeft">74dp</dimen>
+    <dimen name="btnJoinNowMBottom">48dp</dimen>
+    <dimen name="btnJoinNowTextSize">36sp</dimen>
+    <dimen name="btnJoinNowLineHeight">45sp</dimen>
+
+    <dimen name="ellipseBackLogin">48dp</dimen>
+    <dimen name="ellipseBackLoginMTop">24dp</dimen>
+    <dimen name="ellipseBackLoginMLeft">29dp</dimen>
+
+    <dimen name="imgBackLoginWidth">16.5dp</dimen>
+    <dimen name="imgBackLoginHeight">17.5dp</dimen>
+    <dimen name="imgBackLoginMEnd">5dp</dimen>
+
+
+
+    <dimen name="ellipseBackSignUpMLeft">24dp</dimen>
+
+
+
+</resources>

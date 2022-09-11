@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UiDesignApp</string>
+    <string name="nullCheck"></string>
+    <string name="toastNullField">Please fill in the blank fields</string>
+    <string name="toastLoginFailed">Your username or password is incorrect</string>
+    <string name="toastLoginSuccessful">Welcome</string>
+    <string name="toastRegisteredUser">There is a registered user</string>
+    <string name="toastRegistrationSuccessful">Registration is successful</string>
+
+    <string name="toastLogOut">Log out?</string>
+    <string name="toastExitApplication">Exit Application?</string>
+    <string name="toastExit">Exit</string>
+    <string name="toastCancel">Cancel</string>
+
+    <string name="toastEmailFormat">You Entered Incorrect Email Format</string>
+
+    <string name="letsGetStarded">Let\'s Get\nStarted</string>
+    <string name="growTogeth">Grow Together</string>
+    <string name="joinNow">JOIN NOW</string>
+    <string name="welcomeBack">Welcome Back!</string>
+    <string name="enterYourUsernameAndPassword">Enter Your Username \u0026 Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="createAccount"><u>Or Create a New Account</u></string>
+
+    <string name="login">LOGIN</string>
+    <string name="signUp">Sign Up</string>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashActivity">
+
+        <View
+            android:id="@+id/ellipseBlue1"
+            android:layout_width="@dimen/ellipse"
+            android:layout_height="@dimen/ellipse"
+            android:layout_marginLeft="@dimen/ellipseBlue1MLeft"
+            android:layout_marginTop="@dimen/ellipseBlue1MTop"
+            android:background="@drawable/ic_ellipse_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/ellipseBlue2"
+            android:layout_width="@dimen/ellipse"
+            android:layout_height="@dimen/ellipse"
+            android:layout_marginLeft="@dimen/ellipseBlue2MLeft"
+            android:layout_marginTop="@dimen/ellipseBlue2MTop"
+            android:background="@drawable/ic_ellipse_blue"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/unsplashSz"
+            android:layout_width="@dimen/unsplashSz"
+            android:layout_height="@dimen/unsplashSz"
+            android:layout_marginLeft="@dimen/unsplashSzMLeft"
+            android:layout_marginTop="@dimen/unsplashSzMTop"
+            android:background="@drawable/unsplash_sz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/unsplashMe"
+            android:layout_width="@dimen/unsplashMe"
+            android:layout_height="@dimen/unsplashMe"
+            android:layout_marginLeft="@dimen/unsplashMeMLeft"
+            android:layout_marginTop="@dimen/unsplashMeMTop"
+            android:background="@drawable/unsplash_me"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/txtLetsGet"
+            android:layout_width="@dimen/txtLetsGetWidth"
+            android:layout_height="@dimen/txtLetsGetHeight"
+            android:layout_marginLeft="@dimen/txtLetsGetMLeft"
+            android:layout_marginTop="@dimen/txtLetsGetMTop"
+            android:fontFamily="@font/inter_bold"
+            android:text="@string/letsGetStarded"
+            android:textColor="@color/black"
+            android:textFontWeight="800"
+            app:lineHeight="@dimen/txtLetsGetLineHeight"
+            android:lineSpacingExtra="@dimen/txtLetsGetLineSpacingExtra"
+            android:textSize="@dimen/txtLetsGetTextSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+        <TextView
+            android:id="@+id/txtGrowTogeth"
+            android:layout_width="@dimen/txtGrowTogethWidth"
+            android:layout_height="@dimen/txtGrowTogethHeight"
+            android:layout_marginLeft="@dimen/txtGrowTogethMLeft"
+            android:layout_marginTop="@dimen/txtGrowTogethMTop"
+            android:fontFamily="@font/inter"
+            android:lineSpacingExtra="@dimen/txtGrowTogethLineSpacingExtra"
+            android:text="@string/growTogeth"
+            android:textColor="@color/black"
+            android:textFontWeight="600"
+            android:textSize="@dimen/txtGrowTogethTextSize"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lineHeight="@dimen/txtGrowTogethLineHeight" />
+
+        <Button
+            android:id="@+id/btnJoinNow"
+            android:layout_width="@dimen/btnJoinNowWidth"
+            android:layout_height="@dimen/btnJoinNowHeight"
+            android:layout_marginLeft="@dimen/btnJoinNowMLeft"
+            android:layout_marginTop="@dimen/btnJoinNowMTop"
+            android:layout_marginBottom="@dimen/btnJoinNowMBottom"
+            android:background="@drawable/rectangle"
+            android:fontFamily="@font/inder"
+            android:text="@string/joinNow"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btnJoinNowTextSize"
+            app:lineHeight="@dimen/btnJoinNowLineHeight"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
