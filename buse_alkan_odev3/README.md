@@ -18,4 +18,4 @@
 
 <br/>
 <b>Parcelable ve Serializable Performans Testi</b><br>  
-<img src="https://raw.githubusercontent.com/FMSSBilisimAndroid/buse_alkan_odev3/main/parcelableSerializablePerformansTesti.png" alt="SS1"/>
+<img src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev3/parcelableSerializablePerformansTesti.png" alt="SS1"/>
