@@ -2,7 +2,7 @@
 <p align="center">Mobile Ui Design</p>
 
 # Outputs
-<img height="400" width="210" src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev2/screens/uiDesign.gif" alt="SS1"/>
+<img height="500" width="260" src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev2/screens/uiDesign.gif" alt="SS1"/>
 
 
 # Eager ve Lazy Filters
