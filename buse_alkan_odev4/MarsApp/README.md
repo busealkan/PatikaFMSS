@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/60299020/190401424-f89fe1bd-8305-4f62-
 
 ## Clean Simple Architecture
 <p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev4/MarsApp/screens/mvvm.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>               
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br></br></br></br>             
 
 ## Libraries and Tools 
 <li><a href="https://developer.android.com/kotlin/coroutinesa">Coroutine</a></li>
