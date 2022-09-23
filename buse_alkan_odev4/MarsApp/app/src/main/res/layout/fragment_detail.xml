@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.detail.DetailFragment">
+
+
+        <ImageView
+            android:id="@+id/imgDetailBg"
+            android:layout_width="375dp"
+            android:layout_height="812dp"
+            android:layout_marginTop="-24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_splashbackground" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgDetailMars"
+            android:layout_width="375dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="@+id/imgExpand"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imgDetailBg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            app:srcCompat="@drawable/mars" />
+
+
+        <ImageButton
+            android:id="@+id/imgBackButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/ic_ellipse_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imgExpand"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="310dp"
+            android:background="@drawable/ic_expand"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/expand"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/ic_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgMarsType" />
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/ic_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDetailMars" />
+
+        <View
+            android:id="@+id/lineDetail2"
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/ic_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgMarsId" />
+
+        <View
+            android:id="@+id/lineDetail3"
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="23dp"
+            android:background="@drawable/ic_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDetailDollar" />
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_detail"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Add To Card"
+            android:textColor="@color/logoTextColor"
+            android:textFontWeight="800"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgMarsId"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="@+id/line"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            app:srcCompat="@drawable/plot" />
+
+        <ImageView
+            android:id="@+id/imgMarsType"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="@+id/line4"
+            app:layout_constraintTop_toBottomOf="@+id/line4"
+            app:srcCompat="@drawable/rent" />
+
+        <TextView
+            android:id="@+id/txtMarsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="424905"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgMarsId"
+            app:layout_constraintEnd_toEndOf="@+id/line"
+            app:layout_constraintTop_toTopOf="@+id/imgMarsId" />
+
+        <TextView
+            android:id="@+id/txtDetailPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="250000"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imgDetailDollar"
+            app:layout_constraintEnd_toEndOf="@+id/lineDetail2"
+            app:layout_constraintTop_toTopOf="@+id/imgDetailDollar" />
+
+        <ImageView
+            android:id="@+id/imgDetailDollar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="@+id/lineDetail2"
+            app:layout_constraintTop_toBottomOf="@+id/lineDetail2"
+            app:srcCompat="@drawable/dollarsymbol" />
+
+        <TextView
+            android:id="@+id/txtDetailType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Rent"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/line4"
+            app:layout_constraintTop_toBottomOf="@+id/line4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

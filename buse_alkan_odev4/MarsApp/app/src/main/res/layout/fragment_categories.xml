@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.busealkan.marsapp.ui.categories.CategoriesFragment">
+
+        <ImageView
+            android:id="@+id/imgCategoriesBg"
+            android:layout_width="375dp"
+            android:layout_height="812dp"
+            android:layout_marginTop="-24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_splashbackground" />
+
+        <TextView
+            android:id="@+id/txtCategoriesMarsRealestate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Mars Real Estate"
+            android:textColor="@color/logoTextColor"
+            android:textFontWeight="800"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnRent"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/categories"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Rent"
+            android:textColor="@color/logoTextColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCategoriesMarsRealestate" />
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/categories"
+            android:fontFamily="@font/nunito_extrabold"
+            android:text="Buy"
+            android:textColor="@color/logoTextColor"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

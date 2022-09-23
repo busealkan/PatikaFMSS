@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.busealkan.marsapp.ui.splash.SplashFragment">
+
+        <ImageView
+            android:id="@+id/imgSplashBg"
+            android:layout_width="375dp"
+            android:layout_height="812dp"
+            android:layout_marginTop="-24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_splashbackground" />
+
+        <TextView
+            android:id="@+id/txtLetsExploreThe"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="129dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="top"
+            android:lineHeight="55sp"
+            android:text="Let’s Explore the"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtSolarSystem"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="top"
+            android:lineHeight="55sp"
+            android:text="Solar System"
+            android:textColor="@color/logoTextColor"
+            android:textFontWeight="1000"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtLetsExploreThe" />
+
+        <TextView
+            android:id="@+id/txtWith"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="top"
+            android:lineHeight="55sp"
+            android:text="with"
+            android:textColor="@color/white"
+            android:textFontWeight="800"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="@+id/txtSolarSystem"
+            app:layout_constraintTop_toBottomOf="@+id/txtSolarSystem" />
+
+        <TextView
+            android:id="@+id/txtExplorer"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/nunito_extrabold"
+            android:gravity="top"
+            android:lineHeight="55sp"
+            android:text="Explorer"
+            android:textColor="@color/logoTextColor"
+            android:textFontWeight="800"
+            android:textSize="40sp"
+            app:layout_constraintStart_toEndOf="@+id/txtWith"
+            app:layout_constraintTop_toBottomOf="@+id/txtSolarSystem" />
+
+
+        <ImageView
+            android:id="@+id/imgAstronomer"
+            android:layout_width="375dp"
+            android:layout_height="345dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/astronomerstudyingstarswithatelescope"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtExplorer" />
+
+        <FrameLayout
+            android:id="@+id/frameButton"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="85dp"
+            android:background="@drawable/rectangle_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgAstronomer">
+
+            <Button
+                android:id="@+id/btnLetsGo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:drawableRight="@drawable/rocket"
+                android:drawablePadding="4dp"
+                android:fontFamily="@font/open_sans_semibold"
+                android:gravity="center"
+                android:lineHeight="30sp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:text="Let's Go"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textFontWeight="700"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

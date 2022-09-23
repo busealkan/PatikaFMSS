@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mars Real Estate</string>
+
+    <string name="alertTitle">No Internet Connection</string>
+    <string name="alertMessage">Connect to the internet to use the application.</string>
+    <string name="alertNegativeButton">Close</string>
+    <string name="alertPositiveButton">Open Internet</string>
+
+    <string name="alertExitTitle">Sign out?</string>
+    <string name="alertExitMessage">Exit Application?</string>
+    <string name="alertExitNegativeButton">Exit</string>
+    <string name="alertExitPositiveButton">Cancel</string>
+
+    <string name="letsGo">>Let\'s Go</string>
+
+    <string name="progressMessage">Please wait...</string>
+    <string name="sortBy">Sort By</string>
+
+</resources>

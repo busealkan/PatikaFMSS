@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardMargin">10dp</dimen>
+    <dimen name="cardViewHeight">220dp</dimen>
+    <dimen name="cardViewImageHeight">176dp</dimen>
+    <dimen name="cardViewImageWidth">165dp</dimen>
+    <dimen name="cardViewImageMargin">20dp</dimen>
+    <dimen name="cardViewImageMarginLeft">40dp</dimen>
+
+    <dimen name="rcvWidth">40dp</dimen>
+    <dimen name="rcvMarginTop">238dp</dimen>
+    <dimen name="rcvMarginLeft">5dp</dimen>
+    <dimen name="rcvMarginRight">15dp</dimen>
+</resources>

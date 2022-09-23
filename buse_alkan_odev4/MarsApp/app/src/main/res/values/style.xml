@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/logoTextColor</item>
+        <item name="android:textColorPrimary">@color/logoTextColor</item>
+        <item name="android:background">@color/logoColor</item>
+    </style>
+
+    <style name="AlertListDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/logoColor</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="roundImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">75dp</item>
+        <item name="cornerSizeBottomRight">75dp</item>
+        <item name="color">@color/white</item>
+    </style>
+</resources>
+
+
