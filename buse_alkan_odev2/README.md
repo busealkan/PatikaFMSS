@@ -1,36 +1,40 @@
-## UiDesignApp
-<p align="center"><img height="300" width="250" src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/logo.jpg"/></p>
-<p align="center">This project is about the COVID-19 statistical data of the countries.</p>
+# UiDesignApp
+<p align="center">Mobile Ui Design</p>
 
-## Outputs
-<p>
-  <img height="400" width="210" src="https://github.com/busealkan/buse_alkan_odev2/blob/master/screens/uiDesign.mp4" alt="SS1"/>
+# Outputs
+<img height="500" width="260" src="https://raw.githubusercontent.com/busealkan/PatikaFMSS/main/buse_alkan_odev2/screens/uiDesign.gif" alt="SS1"/>
 
 
-</p>
+# Eager ve Lazy Filters
+## Eager Filters
+<p>Eager filter ihtiyaç anından önce oluşturulurak gerektiğinde gerçekleşir.</p>
 
-## Architecture
-<p>The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.</p>
-<p>
-  <img src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/architecture.png" alt="Architecture" style="max-width: 100%;">
-</p>
+<li>Anlamak ve hata ayıklamak daha kolaydır. Ayrıca tek bir kullanım durumu için yüksek oranda optimize edilebilirler (örn filter. )</li>
 
 
-## Clean Simple Architecture
-<p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/Covid19TrackingApp/main/screens/mvvm.png"/></p>
-<br/><br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+```
+val instruments = listOf("viola", "cello", "violin")
+val eager = instruments.filter { it [0] == 'v' }
+println("eager: " + eager)
+```
 
-## Libraries and Tools 
-<li>Dagger Hilt</li>
-<li>Coroutines</li>
-<li><a href="https://developer.android.com/topic/libraries/architecture/viewmodel">ViewModel</a></li> 
-<li><a href="https://developer.android.com/topic/libraries/architecture/livedata">LiveData</a></li>
-<li><a href="https://developer.android.com/topic/libraries/data-binding">Data Binding</a></li>
-<li><a href="https://square.github.io/retrofit/">Retrofit</a></li>
-<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
+⇒ eager: [viola, violin]
 
 
-## License
+## Lazy Filters
+<p>Lazy filter, ihtiyaç duyulan ana kadar gerçekleşmez sadece çalışma zamanında gerekirse gerçekleşir</p>
+
+<li>Daha az hesaplama ile sonuçlanır ve hesaplamada birden fazla adım varsa (örneğin filter, map, reduce), daha az geçici veri oluşturulur.</li>
+
+```
+val instruments = listOf("viola", "cello", "violin")
+val filtered = instruments.asSequence().filter { it[0] == 'v'}
+println("filtered: " + filtered.toList())
+```
+⇒ filtered: [viola, violin]
+
+
+# License
 Copyright 2022 Buse ALKAN..
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,3 +48,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
